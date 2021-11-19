@@ -17,7 +17,7 @@ package analysis
 import (
 	"os"
 
-	"github.com/go-openapi/analysis/internal/debug"
+	"github.com/protodev-site/analysis/internal/debug"
 )
 
 var debugLog = debug.GetLogger("analysis", os.Getenv("SWAGGER_DEBUG") != "")

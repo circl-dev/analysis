@@ -3,7 +3,7 @@ package analysis
 import (
 	"log"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 // FlattenOpts configuration for flattening a swagger specification.

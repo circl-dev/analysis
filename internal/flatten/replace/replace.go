@@ -7,9 +7,9 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/go-openapi/analysis/internal/debug"
 	"github.com/go-openapi/jsonpointer"
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/analysis/internal/debug"
+	"github.com/protodev-site/spec"
 )
 
 const definitionsPath = "#/definitions"

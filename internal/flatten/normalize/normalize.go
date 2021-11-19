@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 // RebaseRef rebases a remote ref relative to a base ref.
@@ -14,7 +14,7 @@ import (
 // NOTE: does not support JSONschema ID for $ref (we assume we are working with swagger specs here).
 //
 // NOTE(windows):
-// * refs are assumed to have been normalized with drive letter lower cased (from go-openapi/spec)
+// * refs are assumed to have been normalized with drive letter lower cased (from protodev-site/spec)
 // * "/ in paths may appear as escape sequences
 func RebaseRef(baseRef string, ref string) string {
 	baseRef, _ = url.PathUnescape(baseRef)
@@ -66,7 +66,7 @@ func RebaseRef(baseRef string, ref string) string {
 // Path renders absolute path on remote file refs
 //
 // NOTE(windows):
-// * refs are assumed to have been normalized with drive letter lower cased (from go-openapi/spec)
+// * refs are assumed to have been normalized with drive letter lower cased (from protodev-site/spec)
 // * "/ in paths may appear as escape sequences
 func Path(ref spec.Ref, basePath string) string {
 	uri, _ := url.PathUnescape(ref.String())

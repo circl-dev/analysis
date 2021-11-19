@@ -6,12 +6,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-openapi/analysis/internal/flatten/operations"
-	"github.com/go-openapi/analysis/internal/flatten/replace"
-	"github.com/go-openapi/analysis/internal/flatten/schutils"
-	"github.com/go-openapi/analysis/internal/flatten/sortref"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/analysis/internal/flatten/operations"
+	"github.com/protodev-site/analysis/internal/flatten/replace"
+	"github.com/protodev-site/analysis/internal/flatten/schutils"
+	"github.com/protodev-site/analysis/internal/flatten/sortref"
+	"github.com/protodev-site/spec"
 )
 
 // InlineSchemaNamer finds a new name for an inlined type

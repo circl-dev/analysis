@@ -17,7 +17,7 @@ package analysis
 import (
 	"testing"
 
-	"github.com/go-openapi/analysis/internal/antest"
+	"github.com/protodev-site/analysis/internal/antest"
 	"github.com/stretchr/testify/require"
 )
 

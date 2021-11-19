@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-openapi/analysis/internal/flatten/normalize"
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/analysis/internal/flatten/normalize"
+	"github.com/protodev-site/spec"
 )
 
 var depthGroupOrder = []string{

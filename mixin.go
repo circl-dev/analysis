@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 // Mixin modifies the primary swagger spec by adding the paths and

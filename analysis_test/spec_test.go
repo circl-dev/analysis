@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/analysis/internal/antest"
-	"github.com/go-openapi/loads"
-	"github.com/go-openapi/spec"
 	"github.com/go-openapi/swag"
+	"github.com/protodev-site/analysis"
+	"github.com/protodev-site/analysis/internal/antest"
+	"github.com/protodev-site/loads"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -17,8 +17,8 @@ package analysis_test
 import (
 	"fmt"
 
-	"github.com/go-openapi/analysis" // This package
-	"github.com/go-openapi/loads"    // Spec loading
+	"github.com/protodev-site/analysis" // This package
+	"github.com/protodev-site/loads"    // Spec loading
 )
 
 func ExampleSpec() {

@@ -14,7 +14,7 @@
 
 package analysis
 
-import "github.com/go-openapi/spec"
+import "github.com/protodev-site/spec"
 
 // FixEmptyResponseDescriptions replaces empty ("") response
 // descriptions in the input with "(empty)" to ensure that the

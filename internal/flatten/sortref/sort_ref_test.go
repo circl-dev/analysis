@@ -3,7 +3,7 @@ package sortref
 import (
 	"testing"
 
-	_ "github.com/go-openapi/analysis/internal/antest"
+	_ "github.com/protodev-site/analysis/internal/antest"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,8 +3,8 @@ package schutils
 import (
 	"testing"
 
-	_ "github.com/go-openapi/analysis/internal/antest"
-	"github.com/go-openapi/spec"
+	_ "github.com/protodev-site/analysis/internal/antest"
+	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 )
 

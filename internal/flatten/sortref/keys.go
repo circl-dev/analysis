@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/go-openapi/jsonpointer"
-	"github.com/go-openapi/spec"
+	"github.com/protodev-site/spec"
 )
 
 const (

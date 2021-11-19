@@ -14,7 +14,7 @@
 
 /*
 Package analysis provides methods to work with a Swagger specification document from
-package go-openapi/spec.
+package protodev-site/spec.
 
 Analyzing a specification
 
