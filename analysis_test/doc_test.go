@@ -17,8 +17,8 @@ package analysis_test
 import (
 	"fmt"
 
-	"github.com/protodev-site/analysis" // This package
-	"github.com/protodev-site/loads"    // Spec loading
+	"github.com/circl-dev/analysis" // This package
+	"github.com/circl-dev/loads"    // Spec loading
 )
 
 func ExampleSpec() {

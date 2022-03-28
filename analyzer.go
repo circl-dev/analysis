@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/jsonpointer"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/spec"
 )
 
 type referenceAnalysis struct {

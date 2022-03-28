@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/jsonpointer"
-	"github.com/protodev-site/spec"
 )
 
 const (

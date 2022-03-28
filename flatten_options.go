@@ -3,7 +3,7 @@ package analysis
 import (
 	"log"
 
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/spec"
 )
 
 // FlattenOpts configuration for flattening a swagger specification.

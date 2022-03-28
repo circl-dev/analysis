@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/jsonpointer"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/spec"
 )
 
 // AllOpRefsByRef returns an index of sortable operations

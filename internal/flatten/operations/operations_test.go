@@ -1,5 +1,5 @@
 package operations
 
 import (
-	_ "github.com/protodev-site/analysis/internal/antest"
+	_ "github.com/circl-dev/analysis/internal/antest"
 )

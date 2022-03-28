@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/require"
 )
 

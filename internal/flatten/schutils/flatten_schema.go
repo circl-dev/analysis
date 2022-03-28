@@ -3,8 +3,8 @@
 package schutils
 
 import (
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/spec"
 )
 
 // Save registers a schema as an entry in spec #/definitions

@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"testing"
 
-	_ "github.com/protodev-site/analysis/internal/antest"
-	"github.com/protodev-site/spec"
+	_ "github.com/circl-dev/analysis/internal/antest"
+	"github.com/circl-dev/spec"
 	"github.com/stretchr/testify/assert"
 )
 

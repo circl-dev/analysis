@@ -3,8 +3,8 @@ package analysis
 import (
 	"fmt"
 
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/strfmt"
-	"github.com/protodev-site/spec"
 )
 
 // SchemaOpts configures the schema analyzer

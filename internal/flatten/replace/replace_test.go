@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/circl-dev/analysis/internal/antest"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/jsonpointer"
-	"github.com/protodev-site/analysis/internal/antest"
-	"github.com/protodev-site/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

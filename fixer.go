@@ -14,7 +14,7 @@
 
 package analysis
 
-import "github.com/protodev-site/spec"
+import "github.com/circl-dev/spec"
 
 // FixEmptyResponseDescriptions replaces empty ("") response
 // descriptions in the input with "(empty)" to ensure that the

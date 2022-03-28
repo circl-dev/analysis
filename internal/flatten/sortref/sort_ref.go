@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/protodev-site/analysis/internal/flatten/normalize"
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/analysis/internal/flatten/normalize"
+	"github.com/circl-dev/spec"
 )
 
 var depthGroupOrder = []string{

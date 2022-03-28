@@ -17,7 +17,7 @@ package analysis
 import (
 	"testing"
 
-	"github.com/protodev-site/analysis/internal/antest"
+	"github.com/circl-dev/analysis/internal/antest"
 	"github.com/stretchr/testify/require"
 )
 

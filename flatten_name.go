@@ -6,12 +6,12 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/circl-dev/analysis/internal/flatten/operations"
+	"github.com/circl-dev/analysis/internal/flatten/replace"
+	"github.com/circl-dev/analysis/internal/flatten/schutils"
+	"github.com/circl-dev/analysis/internal/flatten/sortref"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/swag"
-	"github.com/protodev-site/analysis/internal/flatten/operations"
-	"github.com/protodev-site/analysis/internal/flatten/replace"
-	"github.com/protodev-site/analysis/internal/flatten/schutils"
-	"github.com/protodev-site/analysis/internal/flatten/sortref"
-	"github.com/protodev-site/spec"
 )
 
 // InlineSchemaNamer finds a new name for an inlined type

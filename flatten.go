@@ -21,13 +21,13 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/circl-dev/analysis/internal/flatten/normalize"
+	"github.com/circl-dev/analysis/internal/flatten/operations"
+	"github.com/circl-dev/analysis/internal/flatten/replace"
+	"github.com/circl-dev/analysis/internal/flatten/schutils"
+	"github.com/circl-dev/analysis/internal/flatten/sortref"
+	"github.com/circl-dev/spec"
 	"github.com/go-openapi/jsonpointer"
-	"github.com/protodev-site/analysis/internal/flatten/normalize"
-	"github.com/protodev-site/analysis/internal/flatten/operations"
-	"github.com/protodev-site/analysis/internal/flatten/replace"
-	"github.com/protodev-site/analysis/internal/flatten/schutils"
-	"github.com/protodev-site/analysis/internal/flatten/sortref"
-	"github.com/protodev-site/spec"
 )
 
 const definitionsPath = "#/definitions"
@@ -124,7 +124,7 @@ func Flatten(opts FlattenOpts) error {
 	// 2. Strip the current document from absolute $ref's that actually a in the root,
 	// so we can recognize them as proper definitions
 	//
-	// In particular, this works around issue protodev-site/spec#76: leading absolute file in $ref is stripped
+	// In particular, this works around issue circl-dev/spec#76: leading absolute file in $ref is stripped
 	if err := normalizeRef(&opts); err != nil {
 		return err
 	}
@@ -182,7 +182,7 @@ func expand(opts *FlattenOpts) error {
 	return nil
 }
 
-// normalizeRef strips the current file from any absolute file $ref. This works around issue protodev-site/spec#76:
+// normalizeRef strips the current file from any absolute file $ref. This works around issue circl-dev/spec#76:
 // leading absolute file in $ref is stripped
 func normalizeRef(opts *FlattenOpts) error {
 	debugLog("normalizeRef")

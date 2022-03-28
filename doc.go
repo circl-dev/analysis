@@ -14,7 +14,7 @@
 
 /*
 Package analysis provides methods to work with a Swagger specification document from
-package protodev-site/spec.
+package circl-dev/spec.
 
 Analyzing a specification
 

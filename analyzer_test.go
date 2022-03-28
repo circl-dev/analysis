@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/protodev-site/analysis/internal/antest"
-	"github.com/protodev-site/spec"
+	"github.com/circl-dev/analysis/internal/antest"
+	"github.com/circl-dev/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

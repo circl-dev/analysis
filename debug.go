@@ -17,7 +17,7 @@ package analysis
 import (
 	"os"
 
-	"github.com/protodev-site/analysis/internal/debug"
+	"github.com/circl-dev/analysis/internal/debug"
 )
 
 var debugLog = debug.GetLogger("analysis", os.Getenv("SWAGGER_DEBUG") != "")
