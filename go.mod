@@ -8,7 +8,7 @@ require (
 	github.com/go-openapi/swag v0.19.15
 	github.com/mitchellh/mapstructure v1.4.1 // indirect
 	github.com/stretchr/testify v1.7.0
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.0 // indirect
 )
 
 go 1.13
